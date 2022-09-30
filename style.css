@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=Lato:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=Lato:ital,wght@1,100&family=Shizuru&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #f1f3f3 16.62%, #8bb6b6 85.61%);
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.cabecalho_imagem{
+    width: 150px;
+    height: 22px; 
+}
+.cabecalho_menu{
+    display:flex;
+    gap: 32px;
+}
+.cabecalho_menu_item{
+    font-family: 'Butterfly Kids', cursive;
+    font-size: 150%;
+}
+.conteudo{
+    margin-top: -15px;
+    border-top: 0.4px solid #ffffff;
+}
+.conteudo_principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.conteudo_principal_escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.conteudo_principal_titulo{
+    
+    font-family: 'Butterfly Kids', cursive;
+    font-weight: 1000;
+    font-size: 400%;
+    color: rgb(37, 177, 158);
+}
+.conteudo_principal_subtitulo{
+    font-family: 'Butterfly Kids', cursive;
+    font-weight: 680;
+    font-size: 150%;
+    color: rgb(203, 127, 224);
+}
+.botao_selecao{
+    background-color: rgb(247, 242, 178);
+    width: 150px;
+    height: 67px;
+    border:none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    font-size: 100%;
+    font-weight: 200;
+}
+.conteudo_principal_imagem{
+    height: 380px;
+}
+.conteudo_secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+.conteudo_secundario_titulo{
+    border-top: 0.4px solid #ffffff;
+    padding-top: 48px;
+    font-size: 90%;
+}
+.conteudo_secundario_topicos{
+    font-size: 70%;
+}
+.rodape{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.rodape_imagem{
+    width: 20%;
+    height: 20%;
+}
